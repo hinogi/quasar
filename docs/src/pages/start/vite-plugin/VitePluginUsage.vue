@@ -302,7 +302,7 @@ const vitePluginOptions = computed(() => {
   }
 
   if (useSassVariables.value === true) {
-    acc.push('      sassVariables: \'src/quasar-variables.sass\'')
+    acc.push('      sassVariables: \'src/css/quasar.variables.sass\'')
   }
 
   return acc.length === 0
